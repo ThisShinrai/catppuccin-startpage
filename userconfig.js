@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Halle",
     scale: "C",
   },
   clock: {
@@ -21,7 +21,7 @@ const default_config = {
     // q: "config-tab",
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://figma.com",
   openLastVisitedTab: true,
   tabs: [
     {
